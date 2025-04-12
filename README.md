@@ -24,9 +24,12 @@ Dispenzo is a smart, automated dispensing system that uses RFID authentication a
 - HX711 & MFRC522 Libraries
 - EEPROM Library (built-in)
 - Node.js
-- Serial Monitor 
+- Serial Monitor
+  
+<p align="center">
+  <img src="./images/1.jpeg" alt="Preview" width="400"/>
+</p>
 
-<img src="./images/1.jpeg" alt="Preview" width="400"/>
 
 
 
