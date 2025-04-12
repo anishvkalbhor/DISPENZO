@@ -26,7 +26,8 @@ Dispenzo is a smart, automated dispensing system that uses RFID authentication a
 - Node.js
 - Serial Monitor 
 
-![Preview](./images/1.jpeg)
+<img src="./images/1.jpeg" alt="Preview" width="400"/>
+
 
 
 
