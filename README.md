@@ -1,33 +1,47 @@
-💡 Dispenzo — Intelligent Dispensing System
+<h1>💡 Smart Ration Distribution System</h1>
 
-Dispenzo is a smart, automated dispensing system that uses RFID authentication and weight sensors to ensure secure, precise, and controlled distribution of resources. Designed for efficiency and modularity, it is ideal for environments requiring access control and accurate dispensing.
+<p>
+  The <strong>Smart Ration Distribution System (SRDS)</strong> modernizes the <strong>Public Distribution System (PDS)</strong> by using <strong>RFID authentication</strong> to ensure that only eligible beneficiaries receive their rations. By automating the process, it reduces <strong>fraud</strong>, <strong>manual errors</strong>, and <strong>delays</strong>, offering a more <strong>efficient</strong> and <strong>transparent</strong> distribution system. The system provides <strong>real-time access</strong> to accurate records through a web portal, ensuring fair and timely ration distribution.
+</p>
 
-🚀 Features
-- RFID-Based Access Control – Ensures only authorized users can access the system.
-- Real-Time Weight Monitoring – HX711 and Load Cell used for live weight tracking.
-- Automated Dispensing – Dispenses automatically based on commands or threshold logic.
-- Threshold-Based Stop Mechanism – Stops dispensing after reaching a predefined weight.
-- Serial Command Interface – Trigger actions via serial communication.
-- Calibration Memory – Calibration factor is stored in EEPROM for persistent accuracy.
+<hr>
 
-🛠️ Hardware Used
-- Arduino UNO
-- MFRC522 RFID Module
-- HX711 Load Cell Amplifier
-- Load Cell (5kg)
-- Relay Module
-- DC Motors / Solenoid Valves
-- Power Supply & Breadboard
+<h2>🚀 Features</h2>
+<ul>
+  <li> <strong>RFID-Based Access Control</strong> – Ensures only authorized users can receive rations</li>
+  <li> <strong>Real-Time Data Access</strong> – Web portal for real-time record tracking</li>
+  <li> <strong>Automated Workflow</strong> – Reduces human intervention in ration dispensing</li>
+  <li> <strong>Fraud Reduction</strong> – Minimizes risk by automating ration distribution</li>
+  <li> <strong>Efficient Rationing</strong> – Ensures timely and accurate distribution of food items</li>
+</ul>
 
-💻 Software Requirements
-- Arduino IDE
-- HX711 & MFRC522 Libraries
-- EEPROM Library (built-in)
-- Node.js
-- Serial Monitor 
+<hr>
 
-<img src="./images/preview.png" alt="Preview" width="400"/>
+<h2>🛠️ Hardware Used</h2>
+<ul>
+  <li>Arduino UNO / Raspberry Pi</li>
+  <li>MFRC522 RFID Module</li>
+  <li>HX711 Load Cell Amplifier</li>
+  <li>Load Cell (5kg)</li>
+  <li>Relay Module / Solenoid Valve</li>
+  <li>DC Motors for dispensing mechanism</li>
+  <li>Power Supply & Breadboard</li>
+</ul>
 
+<hr>
 
+<h2>💻 Software Requirements</h2>
+<ul>
+  <li>Arduino IDE</li>
+  <li>HX711 & MFRC522 Libraries</li>
+  <li>EEPROM Library (built-in)</li>
+  <li>Node.js (for web-based access)</li>
+  <li>Serial Monitor for real-time debugging</li>
+</ul>
 
+<hr>
 
+<h2>📸 Preview</h2>
+<p align="center">
+  <img src="./images/1.jpeg" alt="Preview" width="400" height="600"/>
+</p>
