@@ -1,4 +1,4 @@
-<h1>💡 Smart Ration Distribution System</h1>
+<h1>💡 DISPENZO - Smart Ration Distribution System</h1>
 
 <p>
   The <strong>Smart Ration Distribution System (SRDS)</strong> modernizes the <strong>Public Distribution System (PDS)</strong> by using <strong>RFID authentication</strong> to ensure that only eligible beneficiaries receive their rations. By automating the process, it reduces <strong>fraud</strong>, <strong>manual errors</strong>, and <strong>delays</strong>, offering a more <strong>efficient</strong> and <strong>transparent</strong> distribution system. The system provides <strong>real-time access</strong> to accurate records through a web portal, ensuring fair and timely ration distribution.
