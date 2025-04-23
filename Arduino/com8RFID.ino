@@ -94,7 +94,7 @@ void dispenseGrains() {
 
     for (int i = 0; i < 7; i++) {
         if (LOADCELL_HX711.is_ready()) {
-            finalWeight = LOADCELL_HX711.get_units(10);
+            finalWeight = LOADCELL_HX711.get_units(1);
             float weight_In_oz = float(finalWeight) / 28.34952;
 
             Serial.print("Reading ");
@@ -107,7 +107,7 @@ void dispenseGrains() {
         } else {
             Serial.println("HX711 Not Found.");
         }
-        delay(1000);
+        delay(100);
     }
 
     Serial.print("✅ Final Weight: ");
